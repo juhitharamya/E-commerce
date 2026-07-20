@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>My Cart</h1>
+    </header>
+
+    <main class="cart-container">
+
+        <table class="cart-table">
+
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+
+                    <td>
+                        <img src="images/shoe.jpg" alt="Product" width="80">
+                    </td>
+
+                    <td>Nike Running Shoes</td>
+
+                    <td>₹3,999</td>
+
+                    <td>
+                        <input type="number" value="1" min="1">
+                    </td>
+
+                    <td>₹3,999</td>
+
+                    <td>
+                        <button>Remove</button>
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>
+                        <img src="images/headphone.jpg" alt="Product" width="80">
+                    </td>
+
+                    <td>Wireless Headphones</td>
+
+                    <td>₹2,499</td>
+
+                    <td>
+                        <input type="number" value="2" min="1">
+                    </td>
+
+                    <td>₹4,998</td>
+
+                    <td>
+                        <button>Remove</button>
+                    </td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+        <section class="cart-summary">
+
+            <h2>Cart Summary</h2>
+
+            <p>Subtotal: ₹8,997</p>
+
+            <p>Shipping: ₹100</p>
+
+            <h3>Total: ₹9,097</h3>
+
+            <button>Proceed to Checkout</button>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
